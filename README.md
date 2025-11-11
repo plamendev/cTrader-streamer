@@ -1,5 +1,3 @@
-# stream_price
-
 A minimal Python script that connects to the cTrader Open API (JSON over WebSocket), authenticates your application and trading account, retrieves the symbol list, and subscribes to spot price updates for a selected symbol.
 
 The script performs a complete auth + market data flow using official `ProtoOAPayloadType` IDs and prints live bid/ask updates to the console.
